@@ -18,7 +18,7 @@ export default function Home() {
     sizes = document.querySelector(".sizes");
 
     animation(container, card, title, sneaker, purchase, description, sizes);
-  }, [])
+  }, []);
 
   const animation = () => {
     container.addEventListener("mouseenter", (e) => {
